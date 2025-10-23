@@ -254,19 +254,19 @@
 
 ---
 
-## Visão Geral do Sistema
+## 📋 Visão Geral do Sistema
 
 O Sistema Nacional NFS-e é uma plataforma integrada para gestão de Notas Fiscais de Serviços Eletrônicas (NFS-e) no Brasil. Ele inclui módulos para distribuição, recepção e consulta de documentos fiscais, com foco em contribuintes do ISSQN. Os ambientes incluem Homologação (para testes) e Produção.
 
-### Requisitos Gerais
+### 📋 Requisitos Gerais
 - Certificado Digital ICP-Brasil (e-CNPJ A1/A3).
 - Autorização do Comitê Gestor da NFS-e.
 - Protocolo TLS 1.2+ com autenticação mútua.
 - Formatos: JSON para mensagens, XML para documentos, UTF-8, GZip + base64 para compactação.
 
-## Módulos Principais
+## 🛠️ Módulos Principais
 
-### 1. CNC (Cadastro Nacional de Contribuintes)
+### 1. 🏛️ CNC (Cadastro Nacional de Contribuintes)
 - **Função**: Gestão de dados de contribuintes, incluindo cadastros e movimentações.
 - **APIs**: Distribuição, Recepção, Consulta.
 - **Endpoints Principais**:
@@ -278,7 +278,7 @@ O Sistema Nacional NFS-e é uma plataforma integrada para gestão de Notas Fisca
 
 [Ver detalhes completos](/Docs/MD/CNC.md)
 
-### 2. ADN (Ambiente de Dados Nacional)
+### 2. 🗄️ ADN (Ambiente de Dados Nacional)
 - **Função**: Armazenamento e distribuição centralizada de documentos fiscais (DF-e) e eventos.
 - **APIs**: DFe (distribuição/recepção), Eventos (vinculados a NFS-e).
 - **Endpoints Principais**:
@@ -290,7 +290,7 @@ O Sistema Nacional NFS-e é uma plataforma integrada para gestão de Notas Fisca
 
 [Ver detalhes completos](/dOCS/MD/ADN.md)
 
-### 3. DANFSe (Documento Auxiliar da NFS-e)
+### 3. 📄 DANFSe (Documento Auxiliar da NFS-e)
 - **Função**: Geração e distribuição do DANFSe (versão legível da NFS-e).
 - **APIs**: Consulta e geração de DANFSe.
 - **Endpoints Principais**:
@@ -301,7 +301,7 @@ O Sistema Nacional NFS-e é uma plataforma integrada para gestão de Notas Fisca
 
 [Ver detalhes completos](/dOCS/MD/DANFSe.md)
 
-### 4. ParametrosMunicipais (Parâmetros Municipais)
+### 4. ⚙️ ParametrosMunicipais (Parâmetros Municipais)
 - **Função**: Gestão de parâmetros tributários e configurações municipais para NFS-e.
 - **APIs**: Consulta de alíquotas, benefícios, regimes especiais.
 - **Endpoints Principais**:
@@ -311,7 +311,7 @@ O Sistema Nacional NFS-e é uma plataforma integrada para gestão de Notas Fisca
 
 [Ver detalhes completos](/dOCS/MD/ParametrosMunicipais.md)
 
-### 5. SEFIN (Secretaria da Fazenda Nacional)
+### 5. 🏛️ SEFIN (Secretaria da Fazenda Nacional)
 - **Função**: Integração com sistemas federais para validação e distribuição de dados fiscais.
 - **APIs**: Consulta de contribuintes, validação de inscrições.
 - **Endpoints Principais**:
@@ -322,7 +322,7 @@ O Sistema Nacional NFS-e é uma plataforma integrada para gestão de Notas Fisca
 [Ver detalhes completos](/dOCS/MD/SEFIN.md)
 
 
-## Glossário Comum
+## 📖 Glossário Comum
 - **NSU**: Número Sequencial Único (paginação incremental).
 - **Chave de Acesso**: Identificador único de 50 posições para NFS-e.
 - **DFe**: Documento Fiscal Eletrônico.
