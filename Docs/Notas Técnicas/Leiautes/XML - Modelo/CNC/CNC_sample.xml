@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CNC versao="1.00">
+  <infCNC>
+    <Id>CNC12345671123456789012345</Id>
+    <cMun>1234567</cMun>
+    <cnpjMun>12345678000123</cnpjMun>
+    <CPFAgTrib>12345678901</CPFAgTrib>
+    <tpAmb>1</tpAmb>
+    <verAplic>1.0.0</verAplic>
+    <infContrib>
+      <CNPJ>12345678000123</CNPJ>
+      <IM>123456789012345</IM>
+      <dIM>20230101</dIM>
+      <xFantasia>Nome Fantasia Exemplo</xFantasia>
+      <ender>
+        <CEP>12345678</CEP>
+        <xLgr>Rua Exemplo, 123</xLgr>
+        <nro>123</nro>
+        <xCpl>Apartamento 1</xCpl>
+        <xBairro>Bairro Exemplo</xBairro>
+      </ender>
+      <fone>11987654321</fone>
+      <email>exemplo@contribuinte.com</email>
+      <dAutEmiss>20230101</dAutEmiss>
+      <cStatEmiss>1</cStatEmiss>
+      <cSitCNC>1</cSitCNC>
+      <xSitCadMun>Ativo</xSitCadMun>
+      <xMotivoSitCadMun>Cadastro regular</xMotivoSitCadMun>
+    </infContrib>
+  </infCNC>
+</CNC>

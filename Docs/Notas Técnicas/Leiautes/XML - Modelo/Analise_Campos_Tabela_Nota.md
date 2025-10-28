@@ -89,12 +89,13 @@ Essas tabelas auxiliares já cobrem muitos dos campos sugeridos para entidades c
 
 ## Campos Faltantes e Sugestões de Novos Campos
 
-Os XMLs contêm elementos adicionais que não têm correspondência direta na tabela "nota". Esses campos são importantes para conformidade com o layout da NFS-e e para armazenar informações completas sobre a nota fiscal. Abaixo, uma lista dos campos faltantes, agrupados por categoria, com sugestões de novos campos para a tabela "nota":
+
 
 ### 1. Informações Gerais da NFS-e
 
 | Campo | Tipo | TAM | Descrição |
 |-------|------|-----|-----------|
+| ID_NFSE| varchar | 53 | Informar o identificador precedido do literal ‘ID’.|
 | versao_leiaute | varchar | 1-4V2 | Versão do leiaute da NFS-e (ex.: "1.00") |
 | versao_aplicacao | varchar | 1-20 | Versão da aplicação que gerou a NFS-e |
 | ambiente_gerador | tinyint | 1 | Ambiente gerador (1 - Sistema Próprio do Município; 2 - Sefin Nacional NFS-e) |
@@ -195,11 +196,3 @@ Os XMLs contêm elementos adicionais que não têm correspondência direta na ta
 | dps_valor_total_ibs | decimal(15,2) | 1-15V2 | Valor total IBS na DPS |
 | dps_valor_total_cbs | decimal(15,2) | 1-15V2 | Valor total CBS na DPS |
 
-## Recomendações
-
-- **Priorização**: Comece adicionando campos críticos como versão, ambiente, tipo de emissão e localidades de incidência, pois são essenciais para conformidade.
-- **Estrutura**: Considere criar tabelas auxiliares para seções complexas como IBS/CBS e serviço, para evitar uma tabela "nota" excessivamente larga. Utilize as tabelas auxiliares existentes (nota_tomador, nota_contribuinte, nota_deducao) para detalhes de entidades e deduções. Por exemplo, tabelas como "nota_ibs_cbs" e "nota_servico".
-- **Validação**: Após adicionar os campos, revise os tipos de dados (varchar, decimal, tinyint) para garantir compatibilidade com os XMLs.
-- **Próximos Passos**: Implemente as alterações no banco de dados e teste com os XMLs de exemplo para garantir que todos os dados sejam capturados corretamente.
-
-Esta análise cobre os principais aspectos dos XMLs. Se precisar de detalhes adicionais ou ajustes, informe.
