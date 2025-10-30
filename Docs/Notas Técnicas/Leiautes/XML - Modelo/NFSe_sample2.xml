@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<NFSe versao="1.00">
-  <infNFSe id="NFS310620011234567800012300000000000022023101234567892">
+<NFSe versao="1.00"> 
+  <infNFSe id="NFS310620011234567800012300000000000022023101234567892"> 
     <xLocEmi>RIO DE JANEIRO</xLocEmi>
     <xLocPrestacao>RIO DE JANEIRO</xLocPrestacao>
     <cLocIncid>3304557</cLocIncid>
@@ -9,7 +9,7 @@
     <xTribMun>CONSULTORIA MUNICIPAL</xTribMun>
     <xNBS>NBS CONSULTORIA</xNBS>
     <verAplic>2.0</verAplic>
-    <ambGer>2</ambGer>
+    <ambGer>1</ambGer>
     <tpEmis>2</tpEmis>
     <cStat>101</cStat>
     <dhProc>2023-10-02T14:30:00</dhProc>
@@ -44,75 +44,6 @@
         <xOutInf>INFORMAÇÃO ADICIONAL</xOutInf>
       </issqn>
     </valores>
-    <IBSCBS>
-      <cLocalidadeIncid>3304557</cLocalidadeIncid>
-      <xLocalidadeIncid>RIO DE JANEIRO</xLocalidadeIncid>
-      <xIndOp>FORNECIMENTO DETALHADO</xIndOp>
-      <xCST>ISENTO</xCST>
-      <xCClassTrib>CLASSIFICAÇÃO DETALHADA</xCClassTrib>
-      <pRedutor>10.00</pRedutor>
-      <valores>
-        <vCalcReeRepRes>200.00</vCalcReeRepRes>
-        <vBC>800.00</vBC>
-        <uf>
-          <pIBSUF>5.00</pIBSUF>
-          <pRedAliqUF>5.00</pRedAliqUF>
-          <pAliqEfetUF>4.75</pAliqEfetUF>
-        </uf>
-        <mun>
-          <pIBSMun>5.00</pIBSMun>
-          <pRedAliqMun>5.00</pRedAliqMun>
-          <pAliqEfetMun>4.75</pAliqEfetMun>
-        </mun>
-        <fed>
-          <pCBS>5.00</pCBS>
-          <pRedAliqCBS>5.00</pRedAliqCBS>
-          <pAliqEfetCBS>4.75</pAliqEfetCBS>
-        </fed>
-      </valores>
-      <totCIBS>
-        <vTotNF>850.00</vTotNF>
-        <gIBS>
-          <vIBSTot>80.00</vIBSTot>
-          <gIBSCredPres>
-            <pCredPresIBS>5.00</pCredPresIBS>
-            <vCredPresIBS>40.00</vCredPresIBS>
-          </gIBSCredPres>
-          <gIBSUFTot>
-            <vDifUF>5.00</vDifUF>
-            <vIBSUF>35.00</vIBSUF>
-          </gIBSUFTot>
-          <gIBSMunTot>
-            <vDifMun>5.00</vDifMun>
-            <vIBSMun>35.00</vIBSMun>
-          </gIBSMunTot>
-        </gIBS>
-        <gCBS>
-          <gCBSCredPres>
-            <pCredPresCBS>5.00</pCredPresCBS>
-            <vCredPresCBS>20.00</vCredPresCBS>
-          </gCBSCredPres>
-          <vDifCBS>5.00</vDifCBS>
-          <vCBS>35.00</vCBS>
-        </gCBS>
-        <gTribRegular>
-          <pAliqEfeRegIBSUF>5.00</pAliqEfeRegIBSUF>
-          <vTribRegIBSUF>40.00</vTribRegIBSUF>
-          <pAliqEfeRegIBSMun>5.00</pAliqEfeRegIBSMun>
-          <vTribRegIBSMun>40.00</vTribRegIBSMun>
-          <pAliqEfeRegCBS>5.00</pAliqEfeRegCBS>
-          <vTribRegCBS>40.00</vTribRegCBS>
-        </gTribRegular>
-        <gTribCompraGov>
-          <pIBSUF>5.00</pIBSUF>
-          <vIBSUF>40.00</vIBSUF>
-          <pIBSMun>5.00</pIBSMun>
-          <vIBSMun>40.00</vIBSMun>
-          <pCBS>5.00</pCBS>
-          <vCBS>40.00</vCBS>
-        </gTribCompraGov>
-      </totCIBS>
-    </IBSCBS>
     <DPS versao="1.00">
       <infDPS id="DPS3304557112345678901230000002">
         <tpAmb>2</tpAmb>
@@ -293,57 +224,125 @@
             </totTrib>
           </trib>
         </valores>
-        <IBSCBS>
-          <finNFSe>1</finNFSe>
-          <indFinal>1</indFinal>
-          <cIndOp>654321</cIndOp>
-          <tpOper>1</tpOper>
-          <tpEnteGov>1</tpEnteGov>
-          <xTpEnteGov>UNIÃO</xTpEnteGov>
-          <tpNFCredito>01</tpNFCredito>
-          <indPessoas>0</indPessoas>
-          <imovel>
-            <inscImobFisc>IMOB123</inscImobFisc>
-            <cCIB>87654321</cCIB>
-            <end>
-              <CEP>22200000</CEP>
-              <xLgr>RUA IMOVEL</xLgr>
-              <nro>505</nro>
-              <xBairro>IMOVEL</xBairro>
-            </end>
-          </imovel>
-          <valores>
-            <gReeRepRes>
-              <documentos>
-                <dFeNacional>
-                  <tipoChaveDFe>1</tipoChaveDFe>
-                  <chaveDFe>NFS12345678901234567890123456789012345678901234</chaveDFe>
-                </dFeNacional>
-                <dtEmiDoc>2023-09-01</dtEmiDoc>
-                <dtCompDoc>2023-09-01</dtCompDoc>
-                <tpReeRepRes>01</tpReeRepRes>
-                <vlrReeRepRes>200.00</vlrReeRepRes>
-              </documentos>
-            </gReeRepRes>
-            <trib>
-              <gIBSCBS>
-                <CST>001</CST>
-                <cClassTrib>654321</cClassTrib>
-                <cCredPres>01</cCredPres>
-                <gTribRegular>
-                  <CSTReg>001</CSTReg>
-                  <cClassTribReg>654321</cClassTribReg>
-                </gTribRegular>
-                <gDif>
-                  <pDifUF>10.00</pDifUF>
-                  <pDifMun>10.00</pDifMun>
-                  <pDifCBS>10.00</pDifCBS>
-                </gDif>
-              </gIBSCBS>
-            </trib>
-          </valores>
-        </IBSCBS>
       </infDPS>
     </DPS>
   </infNFSe>
+assinatura
 </NFSe>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<IBSCBS>
+      <cLocalidadeIncid>3304557</cLocalidadeIncid>
+      <xLocalidadeIncid>RIO DE JANEIRO</xLocalidadeIncid>
+      <xIndOp>FORNECIMENTO DETALHADO</xIndOp>
+      <xCST>ISENTO</xCST>
+      <xCClassTrib>CLASSIFICAÇÃO DETALHADA</xCClassTrib>
+      <pRedutor>10.00</pRedutor>
+      <valores>
+        <vCalcReeRepRes>200.00</vCalcReeRepRes>
+        <vBC>800.00</vBC>
+        <uf>
+          <pIBSUF>5.00</pIBSUF>
+          <pRedAliqUF>5.00</pRedAliqUF>
+          <pAliqEfetUF>4.75</pAliqEfetUF>
+        </uf>
+        <mun>
+          <pIBSMun>5.00</pIBSMun>
+          <pRedAliqMun>5.00</pRedAliqMun>
+          <pAliqEfetMun>4.75</pAliqEfetMun>
+        </mun>
+        <fed>
+          <pCBS>5.00</pCBS>
+          <pRedAliqCBS>5.00</pRedAliqCBS>
+          <pAliqEfetCBS>4.75</pAliqEfetCBS>
+        </fed>
+      </valores>
+      <totCIBS>
+        <vTotNF>850.00</vTotNF>
+        <gIBS>
+          <vIBSTot>80.00</vIBSTot>
+          <gIBSCredPres>
+            <pCredPresIBS>5.00</pCredPresIBS>
+            <vCredPresIBS>40.00</vCredPresIBS>
+          </gIBSCredPres>
+          <gIBSUFTot>
+            <vDifUF>5.00</vDifUF>
+            <vIBSUF>35.00</vIBSUF>
+          </gIBSUFTot>
+          <gIBSMunTot>
+            <vDifMun>5.00</vDifMun>
+            <vIBSMun>35.00</vIBSMun>
+          </gIBSMunTot>
+        </gIBS>
+        <gCBS>
+          <gCBSCredPres>
+            <pCredPresCBS>5.00</pCredPresCBS>
+            <vCredPresCBS>20.00</vCredPresCBS>
+          </gCBSCredPres>
+          <vDifCBS>5.00</vDifCBS>
+          <vCBS>35.00</vCBS>
+        </gCBS>
+        <gTribRegular>
+          <pAliqEfeRegIBSUF>5.00</pAliqEfeRegIBSUF>
+          <vTribRegIBSUF>40.00</vTribRegIBSUF>
+          <pAliqEfeRegIBSMun>5.00</pAliqEfeRegIBSMun>
+          <vTribRegIBSMun>40.00</vTribRegIBSMun>
+          <pAliqEfeRegCBS>5.00</pAliqEfeRegCBS>
+          <vTribRegCBS>40.00</vTribRegCBS>
+        </gTribRegular>
+        <gTribCompraGov>
+          <pIBSUF>5.00</pIBSUF>
+          <vIBSUF>40.00</vIBSUF>
+          <pIBSMun>5.00</pIBSMun>
+          <vIBSMun>40.00</vIBSMun>
+          <pCBS>5.00</pCBS>
+          <vCBS>40.00</vCBS>
+        </gTribCompraGov>
+      </totCIBS>
+    </IBSCBS>
